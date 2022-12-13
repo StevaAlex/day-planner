@@ -2,7 +2,7 @@ var currentDayEl = $("#currentDay");//select day element on jumbotron
 var today = moment();
 var timeEl = $(".time");
 var currentHour = today.format("H");
-var rowEl = $(".row");
+var rowEl = $("textarea");
 var saveBtn = $("button");
 var input = $("textarea");
 var input9am = $("#9am");
@@ -49,13 +49,13 @@ $(document).ready(function () {
         var savedData = {
             am9: jQuery.trim(input9am.val()),
             am10: jQuery.trim(input10am.val()),
-            am11: jQuery.trim(input11am).val(),
-            pm12: jQuery.trim(input12pm).val(),
-            pm13: jQuery.trim(input13pm).val(),
-            pm14: jQuery.trim(input14pm).val(),
-            pm15: jQuery.trim(input15pm).val(),
-            pm16: jQuery.trim(input16pm).val(),
-            pm17: jQuery.trim(input17pm).val()
+            am11: jQuery.trim(input11am.val()),
+            pm12: jQuery.trim(input12pm.val()),
+            pm13: jQuery.trim(input13pm.val()),
+            pm14: jQuery.trim(input14pm.val()),
+            pm15: jQuery.trim(input15pm.val()),
+            pm16: jQuery.trim(input16pm.val()),
+            pm17: jQuery.trim(input17pm.val())
 
 
         }; 
