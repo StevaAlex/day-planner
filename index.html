@@ -18,63 +18,62 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
-  </header> 
+  </header>
   <span>
-  <div class="rowContainer container">
-     
-      <div class=" row"> 
-      <label class="time hour" >9am<!-- class options are "past" "present" "future" --></label> 
-      <textarea class=" time-block description" name="" id="9am" type="text" cols="100" placeholder=" "> </textarea>
-      <button class=" saveBtn"><i class="fas fa-save"></i></button>
+    <div class="rowContainer container">
+
+      <div class=" row time-block">
+        <label class="time hour">9am</label>
+        <textarea class="  description" name="" id="9am" type="text" cols="100" placeholder=" "> </textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block ">
+        <label class="time hour">10am </label> <!-- class options are "past" "present" "future" -->
+        <textarea class="  description" name="" id="10am" cols="100" type="text" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour ">11am</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="11am" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour  ">12pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="12pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour">13pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="13pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour">14pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="14pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour">15pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="15pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour">16pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="16pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row time-block">
+        <label class="time hour">17pm</label> <!-- class options are "past" "present" "future" -->
+        <textarea class=" description " name="" id="17pm" type="text" cols="100" placeholder=" "></textarea>
+        <button class=" saveBtn"><i class="fas fa-save"></i></button>
+      </div>
     </div>
-  
-  <div class="row "> 
-    <label class="time hour">10am </label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" time-block description" name="" id="10am"  cols="100" type="text" placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour ">11am</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="11am" type="text" cols="100" placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour  ">12pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="12pm" type="text" cols="100" placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour">13pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="13pm" type="text" cols="100" placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour">14pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="14pm" type="text" cols="100"  placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour">15pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="15pm" type="text" cols="100"  placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row">
-    <label class="time hour">16pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="16pm" type="text" cols="100"  placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  <div class="row ">
-    <label class="time hour">17pm</label> <!-- class options are "past" "present" "future" -->
-    <textarea class=" description time-block" name="" id="17pm" type="text" cols="100"  placeholder=" "></textarea>
-    <button class=" saveBtn"><i class="fas fa-save"></i></button>
-  </div>
-  </div>
 
-</div>
+  </span>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="./starter/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./starter/script.js"></script>
 </body>
 
 </html>
